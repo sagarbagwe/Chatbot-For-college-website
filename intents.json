@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Oi!",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": ["website", "official website"],
+      "responses": [
+        "https://ghrce.raisoni.net/"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "Which college?",
+        "What is your college name?",
+        "Which is your home?",
+        "Where do you leave?"
+      ],
+      "responses": [
+        "G H Raisoni college of Engineering Nagpur",
+        "GHRCE Nagpur"
+      ]
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "academics",
+        "admission availabe"
+      ],
+      "responses": [
+        "1. B.tech\n\t2. M.tech\n\t3. Ph. D\n\t4. M.B.A"
+      ]
+    },
+    {
+      "tag": "branch",
+      "patterns": [
+        "total branches in college?",
+        "How many branches are offered in ghrce?"
+      ],
+      "responses": [
+        "GHRCE offers B.tech in AI, CSE, DS, IT, Mechanical, Civil, ETC, ETRX."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is total fees?",
+        "Fees for AI",
+        "Fees for CSE",
+        "Fees for DS",
+        "Any scholarship?"
+      ],
+      "responses": [
+        "Management fees is 1,70,000 per course and 50% scholarship is available for government admission and other scholarships are applicable for cap round students."
+      ]
+    },
+    {
+      "tag": "cources",
+      "patterns": [
+        "which cources are offered in ghrce?",
+        "Which is the best cource offered?",
+        "Recommend some cources?"
+      ],
+      "responses": [
+        "Btech in AI, CSE, DS, IT",
+        "Btech in AI, CSE",
+        "Btech in AI"
+      ]
+    },
+    {
+      "tag": "hod_ai",
+      "patterns": [
+        "who is hod of ai?",
+        "ai hod?"
+      ],
+      "responses": [
+        "Prof. A. Thomas\n\tM.Phil(Computer Science),M.Tech(CSE), PhD(Pursuing)\n\tArea of Interest: Machine Learning, Natural Language Processing, Data Mining, Programming"
+      ]
+    },
+    {
+      "tag": "director",
+      "patterns": [
+        "director name"
+      ],
+      "responses": [
+        "Dr. Sachin Untawale"
+      ]
+    },
+    {
+      "tag": "bot_info",
+      "patterns": [
+        "who are you",
+        "tell something about yourself"
+      ],
+      "responses": [
+        "I was created as a mini project.\n\tI was developed by Aditya Sonone, Harshad Nichat, Deepak Pise and kartik Bhagwat\n\tunder the guidance of prof. Praful Sonarkar and prof. Dhananjay Bhagat."
+      ]
+    },
+    {
+      "tag": "chairman",
+      "patterns": [
+        "chairman name"
+      ],
+      "responses": [
+        "Shri. Sunil Raisoni"
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "what is the rank of ghrce?",
+        "ranking of ghrce?",
+        "nrif ranking?"
+      ],
+      "responses": [
+        "Currently GHRCE is ranked 130th PAN-India in Engineering Discipline as declared by NIRF Ranking 2021.\n\t1st Rank in India at ARIIA-2021 among private / Self Financed College / institutions."
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "ghrce info?",
+        "info about ghrce",
+        "establishment"
+      ],
+      "responses": [
+        "Established in 1996, G H Raisoni College of Engineering [GHRCE] is a premier Autonomous institution in the central India imparting a holistic technical education to the students residing not only in India but also international students. \n\tThe institution has always been ranked amongst a well performing institution by National Institutional Ranking Framework (NIRF), MHRD, Government of India."
+      ]
+    },
+    {
+      "tag": "dean",
+      "patterns": [
+        "Who is dean of training and placement?"
+      ],
+      "responses": [
+        "Dr. Bhushan Vidhale"
+      ]
+    },
+    {
+      "tag": "ai_fac",
+      "patterns": [
+        "faculty for ai?"
+      ],
+      "responses": [
+        "Prof. D Bhagat, Prof. A Thomas"
+      ]
+    },
+    {
+      "tag": "avg_pkg",
+      "patterns": [
+        "average package?",
+        "What is avg package?"
+      ],
+      "responses": [
+        "average package is 4.5Lakhs"
+      ]
+    },
+    {
+      "tag": "h_pkg",
+      "patterns": [
+        "highest package?",
+        "What is highest package?"
+      ],
+      "responses": [
+        "highest package is 16Lakhs"
+      ]
+    },
+    {
+      "tag": "intake",
+      "patterns": [
+        "intake",
+        "What is intake of ai"
+      ],
+      "responses": [
+        "Intake is 60"
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "what is the vision of ghrce?",
+        "ghrce vision?",
+        "vision and mission?"
+      ],
+      "responses": [
+        "To achieve excellent standards of quality education by keeping pace with rapidly changing technologies and to create technical manpower of global standards with capabilities of accepting new challenges."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "After you do engineering from GHRCE it will change your life by offering you campus placement.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
